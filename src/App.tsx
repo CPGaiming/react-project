@@ -1,5 +1,6 @@
 import { useState, useCallback } from "react";
 import "./App.css";
+import logo from "./assets/enagram_logo.png";
 
 type DiffPart = {
   text: string;
@@ -93,7 +94,7 @@ export default function App() {
       <div className="layout">
         <aside className="sidebar">
           <div className="logo-wrap">
-            <img src="/src/assets/enagram_logo.png" alt="ENAGRAM" style={{ width: 42.65, height: 44, objectFit: 'contain' }} />
+            <img src={logo} alt="ENAGRAM" style={{ width: 42.65, height: 44, objectFit: 'contain' }} />
             <span className="logo-text">ENAGRAM</span>
           </div>
           
