@@ -93,7 +93,7 @@ export default function App() {
       <div className="layout">
         <aside className="sidebar">
           <div className="logo-wrap">
-            <img src="/src/assets/engram_logo.png" alt="ENAGRAM" style={{ width: 42.65, height: 44, objectFit: 'contain' }} />
+            <img src="/src/assets/enagram_logo.png" alt="ENAGRAM" style={{ width: 42.65, height: 44, objectFit: 'contain' }} />
             <span className="logo-text">ENAGRAM</span>
           </div>
           
